@@ -12,7 +12,8 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 66px;
-    background-color:  rgba(236, 214 ,196, 0.53);
+    background-image: linear-gradient(45deg, black, crimson);
+    height: 100%;
 }
 
 .calculator {
@@ -20,9 +21,9 @@
     flex-direction: column;
     align-items: center;
     gap: 60px;
-    width: 405px;
-    height: 522px;
-    background-color: midnightblue;
+    width: 410px;
+    height: 560px;
+    background-color: black;
     color: white;
     border-radius: 18px;
     box-shadow: 1px 3px 4px 2px rgba(0, 0, 0, 0.472);
@@ -32,7 +33,6 @@
     display: flex;
     color: white;
     border-radius: 18px;
-    background-color: rgb(35, 35, 124);
     font-family: poppins, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: 400;
@@ -52,29 +52,32 @@
 .number {
     width: 90px;
     height: 74px;
-    background-color: midnightblue;
+    background-color: rgb(31, 31, 31);
     color: white;
     font-family: poppins, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 400;
     border: none;
     border-radius: 18px;
+    cursor: pointer;
+    margin: 2px;
 }
 
 .number:hover {
-    background-color: rgb(35, 35, 124);
+    background-color: black;
     transition-duration: 0.1s;
 }
 .number-equal {
     background-color: crimson;
     color: white;
-    height: 74px;
+
     width: 94px;
     font-family: poppins, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 400;
     border-radius: 15px;
     border: none;
+    cursor: pointer;
 }
 
 .number-equal:hover {
@@ -94,18 +97,20 @@
     font-family: poppins, Helvetica, sans-serif;
     font-size: 81px;
     font-weight: 600;
-    color: midnightblue;
+    color: white;
 }
 
 .title-source {
     font-family: poppins, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: 600;
+    color: white;
 }
 .title-html {
     font-family: poppins, Helvetica, sans-serif;
     font-size: 35px;
     font-weight: 600;
+    color: white;
 }
 
 .title-luis {
@@ -114,5 +119,5 @@
     font-family: poppins, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 600;
-    color: midnightblue;
+    color: white;
 }
