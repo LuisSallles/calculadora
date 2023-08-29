@@ -21,21 +21,21 @@
                 <!-- CALCULATOR KEYBOARD-->
                 <p>
                     <input type="button" value="Ac" class="number">
-                    <input type="button" value="DEL" class="number">
-                    <input type="button" value="/" class="number">
-                    <input type="button" value="X" class="number">
+                    <input type="button" value="DEL" class="number" onclick="reset()">
+                    <input type="button" value="/" class="number" onclick="insert('/')">
+                    <input type="button" value="X" class="number" onclick="insert('X')">
                 </p>
                 <p>
                     <input type="button" value="7" class="number" onclick="insert('7')">
                     <input type="button" value="8" class="number" onclick="insert('8')">
                     <input type="button" value="9" class="number" onclick="insert('9')">
-                    <input type="button" value="-" class="number">
+                    <input type="button" value="-" class="number" onclick="insert('-')">
                 </p>
                 <p>
                     <input type="button" value="6" class="number" onclick="insert('6')">
                     <input type="button" value="5" class="number" onclick="insert('5')">
                     <input type="button" value="4" class="number" onclick="insert('4')">
-                    <input type="button" value="+" class="number">
+                    <input type="button" value="+" class="number" onclick="insert('+')">
                 <p>
                     <input type="button" value="1" class="number" onclick="insert('1')">
                     <input type="button" value="2" class="number" onclick="insert('2')">
@@ -44,7 +44,7 @@
                 </p>
                 <p>
                     <input type="button" value="0" class="number" style="width: 281px;" onclick="insert(0)">
-                    <input type="button" value="." class="number">
+                    <input type="button" value="." class="number" onclick="insert('.')">
                 </p>
             </div>
         </section>
