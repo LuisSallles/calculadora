@@ -13,7 +13,7 @@
     justify-content: space-around;
     padding: 66px;
     background-image: linear-gradient(45deg, black, crimson);
-    height: 100%;
+    height: 923px;
 }
 
 .calculator {
@@ -24,7 +24,6 @@
     width: 410px;
     height: 560px;
     background-color: rgba(0, 0, 0, 0.8);
-    color: white;
     border-radius: 18px;
     box-shadow: 1px 3px 4px 2px rgba(0, 0, 0, 0.472);
 }
