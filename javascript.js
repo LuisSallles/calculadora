@@ -1,7 +1,7 @@
-// Inserting numbers on the screen
-function insert(num) {
-    var numRes = document.getElementById('calculator-result').innerHTML
-    document.getElementById('calculator-result').innerHTML = num + numRes
+// To show numbers in the screem
+function insert(txtnum) {
+    var num = document.getElementById('calculator-result').innerHTML
+    document.getElementById('calculator-result').innerHTML = txtnum + num
 }
 
 // Reset all numbers
@@ -9,8 +9,16 @@ function reset() {
     document.getElementById('calculator-result').innerHTML = ''
 }
 
-// Clean only a number on the screen
-function del() {
-    var reset = document.getElementById('calculator-result').innerHTML
-    document.getElementById('calculator-result').innerHTML = reset.substring(0, reset.length -1)
+// back one number
+function back() {
+    var back = document.getElementById('calculator-result').innerHTML
+    document.getElementById('calculator-result').innerHTML = back.substring(0, back.length -1)
+}
+
+// Calculate the numbers
+function calculate() {
+    var result = document.getElementById('calculator-result').innerHTML
+    if(result) {
+        document.getElementById('calculator-result').innerHTML = eval(result)
+    }
 }

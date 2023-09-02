@@ -15,12 +15,12 @@
             <div class="calculator-botton">
                 
                 <!-- CALCULATOR RESULT-->
-                    <div id="calculator-result">
-                        
+                    <div>
+                        <p id="calculator-result"></p>
                     </div>
                 <!-- CALCULATOR KEYBOARD-->
                 <p>
-                    <input type="button" value="Ac" class="number" onclick="del()">
+                    <input type="button" value="Ac" class="number" onclick="back()">
                     <input type="button" value="DEL" class="number" onclick="reset()">
                     <input type="button" value="/" class="number" onclick="insert('/')">
                     <input type="button" value="X" class="number" onclick="insert('*')">
@@ -40,7 +40,7 @@
                     <input type="button" value="1" class="number" onclick="insert('1')">
                     <input type="button" value="2" class="number" onclick="insert('2')">
                     <input type="button" value="3" class="number" onclick="insert('3')">
-                    <input type="button" value="=" class="number-equal" style="height: 74px;">
+                    <input type="button" value="=" class="number-equal" style="height: 74px;" onclick="calculate()">
                 </p>
                 <p>
                     <input type="button" value="0" class="number" style="width: 281px;" onclick="insert('0')">
