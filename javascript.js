@@ -1,7 +1,7 @@
 // To show numbers in the screem
 function insert(txtnum) {
     var num = document.getElementById('calculator-result').innerHTML
-    document.getElementById('calculator-result').innerHTML = txtnum + num
+    document.getElementById('calculator-result').innerHTML = num + txtnum 
 }
 
 // Reset all numbers
