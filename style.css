@@ -14,6 +14,7 @@
     padding: 66px;
     background-image: linear-gradient(45deg, black, crimson);
     height: 923px;
+    height: 100vh;
 }
 
 .calculator {
